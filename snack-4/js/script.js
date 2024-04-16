@@ -26,7 +26,7 @@ const maggiorenne = []
 
 for (let i = 0; i < persone.length; i++){
 	if(persone[i].età >= 18){
-		maggiorenne.push(persone[i].nome + persone[i].cognome + "sei maggiorenne puoi guidare")
+		maggiorenne.push(persone[i].nome + " " + persone[i].cognome + " " + "sei maggiorenne puoi guidare")
 		console.log(maggiorenne);
 	}
 }
